@@ -1,0 +1,57 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="texto">15dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="texto_destaque">18sp</dimen>
+    <dimen name="marg_idade">25dp</dimen>
+
+    <!-- Tela Sobre -->
+    <dimen name="espacamento">2dp</dimen>
+    <dimen name="esp_img">5dp</dimen>
+    <dimen name="width_cluster">200dp</dimen>
+    <dimen name="height_cluster">50dp</dimen>
+    <dimen name="marg_bottom_qi">10dp</dimen>
+    <dimen name="sobre_largura">130dp</dimen>
+    <dimen name="sobre_altura">130dp</dimen>
+
+    <!-- Tela Como Ajudar -->
+    <dimen name="linear_marg">16dp</dimen>
+    <dimen name="padding_ajudar">10dp</dimen>
+    <dimen name="marg_texto_top">15dp</dimen>
+    <dimen name="texto_um">15sp</dimen>
+    <dimen name="texto_dois">10sp</dimen>
+    <dimen name="moip_marg_top">30dp</dimen>
+    <dimen name="moip_marg_larg">50dp</dimen>
+    <dimen name="pag_marg_top">10dp</dimen>
+    <dimen name="marg_lin_top">20dp</dimen>
+    <dimen name="marg_lin_bot">30dp</dimen>
+
+    <!-- Tela Consultar Pet -->
+    <dimen name="titulo_marg_bot">10dp</dimen>
+    <dimen name="padding_sppiner">3dp</dimen>
+    <dimen name="marg_list">10dp</dimen>
+
+    <!-- Tela Contato -->
+    <dimen name="marg_campo">10dp</dimen>
+
+    <!-- Tela Detalhe Pet -->
+    <dimen name="larg_alt_img_detalhe">175dp</dimen>
+    <dimen name="marg_campo_detalhe">6dp</dimen>
+
+    <!-- Tela Detalhe Evento -->
+    <dimen name="larg_alt_img_detalhe_evento">245dp</dimen>
+    <dimen name="larg_larg_img_detalhe_evento">245dp</dimen>
+
+    <!-- Tela Parceiros -->
+    <dimen name="larg_parceiro">280dp</dimen>
+    <dimen name="alt_parceiro">100dp</dimen>
+
+    <!-- Tela Inicial -->
+    <dimen name="alt_lay">315dp</dimen>
+    <dimen name="larg_img_pet">130dp</dimen>
+    <dimen name="altu_img_pet">130dp</dimen>
+
+</resources>

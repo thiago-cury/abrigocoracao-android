@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey300"
+    tools:context="thiagocury.eti.br.centoeumviralatas.FragDetalheEvento">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/linear_marg">
+
+            <ImageView
+                android:layout_width="@dimen/larg_larg_img_detalhe_evento"
+                android:layout_height="@dimen/larg_alt_img_detalhe_evento"
+                android:id="@+id/ivDetalheEventoFoto"
+                android:src="@mipmap/ic_logotipo"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/tvDetalheEventoTitulo"
+                android:layout_margin="@dimen/marg_campo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/tvDetalheEventoDescricao"
+                android:layout_margin="@dimen/marg_campo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/tvDetalheEventoData"
+                android:layout_margin="@dimen/marg_campo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/tvDetalheEventoLocal"
+                android:layout_margin="@dimen/marg_campo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/tvDetalheEventoHoraInicio"
+                android:layout_margin="@dimen/marg_campo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/tvDetalheEventoHoraFim"
+                android:layout_margin="@dimen/marg_campo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/tvDetalheEventoTipo"
+                android:layout_margin="@dimen/marg_campo"
+                android:paddingBottom="@dimen/marg_campo"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDetalheEventoParticipe"
+                android:id="@+id/btnDetalheEventoParticipe"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/borda_botao"
+                android:textColor="@color/white"
+                android:layout_marginLeft="@dimen/moip_marg_larg"
+                android:layout_marginRight="@dimen/moip_marg_larg" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

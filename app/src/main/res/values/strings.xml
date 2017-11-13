@@ -1,0 +1,363 @@
+<resources>
+    <string name="app_name">CoraCão</string>
+    <string name="action_settings">"Settings"</string>
+
+    <!-- Propaganda -->
+    <string name="banner_ad_unit_id_inicial">"ca-app-pub-2051234629138297/2172471167"</string>
+
+    <!-- Tela de Abertura -->
+    <string name="tela_principal_saudacao">Hello! Welcome to App ONG Abrigo Coracão.</string>
+    <string name="Texto_inicial">"Here you can meet our peludinhos awaiting a family, with the possibility to filter the search according to the desired characteristics. "</string>
+    <string name="texto_inicial_dois">"You can also learn more about ONG: how to help, learn about our products, partners, upcoming events and contact us."</string>
+    <string name="clicar">"Click the menu to navigate."</string>
+    <string name="btnTelaAbertura">"Peludinhos for Adoption!"</string>
+
+    <!-- Erros no geral-->
+    <string name="erro_conexao">"Some problem occurred in your connection!"</string>
+    <string name="erro_sem_eventos_inicio">"We did not find any event at the moment! : - /"</string>
+    <string name="erro_sem_eventos">"Your query returned no event! : - /"</string>
+    <string name="wifi_ligado">"WIFI On!"</string>
+    <string name="alert_wifi_titulo">"WARNING!"</string>
+    <string name="alert_wifi_mensagem">"You are not connected! Some features will no longer work!"</string>
+    <string name="alert_wifi_botao_ok">"Desire Connect Now!"</string>
+
+    <!-- tela detalhePet -->
+    <string name="tela_detalhe_pet_nome">"Name"</string>
+    <string name="tela_detalhe_pet_idade">"Age"</string>
+    <string name="tela_detalhe_pet_sexo">"Sex"</string>
+    <string name="tela_detalhe_pet_porte">"Size Rating"</string>
+    <string name="tela_detalhe_pet_temperamento">"Temperament"</string>
+    <string name="tela_detalhe_pet_historia">"History"</string>
+
+    <!-- Classe EventoAdapter -->
+    <string name="classe_evento_adapter_titulo">"job Title"</string>
+    <string name="classe_evento_adapter_descricao">"Description "</string>
+    <string name="classe_evento_adapter_data_evento">"Date Event"</string>
+    <string name="classe_evento_adapter_hora_inicio">"Start time"</string>
+    <string name="classe_evento_adapter_hora_termino">"Time Ending"</string>
+    <string name="classe_evento_adapter_tipo_evento">"Type Event"</string>
+
+    <!-- Classe PetAdapter -->
+    <string name="classe_pet_adapter_porte">"Size Rating"</string>
+    <string name="classe_pet_adapter_ano">"30 Years old"</string>
+    <string name="classe_pet_adapter_ano_nasc">"Year b."</string>
+    <string name="classe_pet_adapter_nome">"Name"</string>
+    <string name="classe_pet_adapter_dados_pet_escolhido">"Furry chosen data"</string>
+    <string name="classe_pet_adapter_temperamento">"Temperament"</string>
+    <string name="classe_pet_adapter_padrinho">"Hairy waiting godfather"</string>
+
+    <!-- Menu -->
+    <string name="menu_tela_principal">"Home screen"</string>
+    <string name="menu_eventos">"Events"</string>
+    <string name="menu_cadastro_pets">"Register"</string>
+    <string name="menu_consulta_pets">"Our Furry"</string>
+    <string name="menu_lojavirtual">"Our products"</string> <!-- Nossos Produtos -->
+    <string name="menu_entrada">"Input"</string>
+    <string name="menu_saida">"Output"</string>
+    <string name="menu_como_ajudar">"Be a Volunteer"</string> <!-- Como Ajudar? -->
+    <string name="menu_doacao">"Make A Donation"</string>
+    <string name="menu_docao_mensal">"Monthly donation"</string>
+    <string name="menu_apadrinhe_um_peludo">"Sponsor one Hairy"</string>
+    <string name="menu_historia">"History of ONG"</string>
+    <string name="menu_parceiros">"Partners"</string>
+    <string name="menu_contato">"Contact"</string>
+    <string name="menu_sobre">"About"</string>
+    <string name="menu_sair">"Get out"</string>
+    <string name="title_activity_cadastro_animal">"CadastroAnimal"</string>
+
+    <!-- Cadastro Animal -->
+    <string name="cadastro_animal_codigo">"Code"</string>
+    <string name="cadastro_animal_nome">"Name"</string>
+    <string name="cadastro_animal_idade">"Age"</string>
+    <string name="cadastro_animal_sexo">"Sex"</string>
+    <string name="cadastro_animal_tipo">"Type"</string>
+    <string name="cadastro_animal_temperamento">"Temperament"</string>
+    <string name="cadastro_animal_porte">"Size Rating"</string>
+    <string name="cadastro_animal_status">"Status "</string>
+    <string name="cadastro_animal_cadastrar">"Register"</string>
+    <string name="cadastro_animal_buscar">"Search Image"</string>
+    <string name="cadastro_animal_tirar">"Take a picture"</string>
+
+    <!-- Array Tipo ConsultaEvento -->
+    <string-array name="arrayTipoConsultaEvento">
+        <item>"All"</item>
+        <item>"Task force"</item>
+        <item>"Thrift store"</item>
+        <item>"Bath / Tosa"</item>
+        <item>"Action among friends/raffle"</item>
+        <item>"Serenade Lit"</item>
+        <item>"Fair Adoption"</item>
+        <item>"Beneficent tea"</item>
+        <item>"Carinhosos volunteers"</item>
+        <item>"Amornique"</item>
+        <item>"Bath"</item>
+        <item>"read"</item>
+        <item>"CONFRATERNIZATION"</item>
+        <item>"Others"</item>
+    </string-array>
+
+    <!-- Array Tipo ConsultaPet -->
+    <string-array name="arrayTipoConsultaPet">
+        <item>"All"</item>
+        <item>"Canine"</item>
+        <item>"Feline"</item>
+    </string-array>
+
+    <!-- Array Porte ConsultaPet -->
+    <string-array name="arrayPorteConsultaPet">
+        <item>"All"</item>
+        <item>"S"</item>
+        <item>"S / M"</item>
+        <item>"M"</item>
+        <item>"M / L"</item>
+        <item>"L"</item>
+    </string-array>
+
+    <!-- Array Filhote/Adulto ConsultaPet -->
+    <string-array name="arrayIdadeConsultaPet">
+        <item>"All"</item>
+        <item>"Cub"</item>
+        <item>"Adult"</item>
+        <item>"Elderly "</item>
+    </string-array>
+
+    <!-- Array Sexo ConsultaPet -->
+    <string-array name="arraySexoConsultaPet">
+        <item>"All"</item>
+        <item>"CORE:"</item>
+        <item>"Female"</item>
+    </string-array>
+
+    <!-- Array Espécie -->
+    <string-array name="arrayTipo">
+        <item>"Canine"</item>
+        <item>"Feline"</item>
+    </string-array>
+
+    <!-- Array Sexo-->
+    <string-array name="arraySexo">
+        <item>"Male"</item>
+        <item>"Female"</item>
+    </string-array>
+
+    <!-- Array Status -->
+    <string-array name="arrayStatus">
+        <item>"The ONG"</item>
+        <item>"Adopted"</item>
+        <item>"In Temporary Home"</item>
+    </string-array>
+
+    <!-- Array Porte -->
+    <string-array name="arrayPorte">
+        <item>"S"</item>
+        <item>"S / M"</item>
+        <item>"M"</item>
+        <item>"M / L"</item>
+        <item>"L"</item>
+    </string-array>
+
+    <!-- Array Castrado -->
+    <string-array name="arrayCastrado">
+        <item>"Yes"</item>
+        <item>"No"</item>
+    </string-array>
+
+    <!-- Array Temperamento -->
+    <string-array name="arrayTemperamento">
+        <item>"Quiet overall"</item>
+        <item>"Docile with people"</item>
+        <item>"Docile with animals"</item>
+    </string-array>
+
+    <!-- Titulos Tela -->
+    <string name="title_activity_cadastro_pet">"Registration Hairy"</string>
+    <string name="title_activity_consulta_pet">"Our Furry"</string>
+    <string name="title_activity_pet_detalhe">"Hairy Information"</string>
+    <string name="title_activity_detalhe_pet">"Hairy Information"</string>
+    <string name="title_activity_como_ajudar">"Be a Volunteer"</string>
+    <string name="title_activity_historia">"History"</string>
+    <string name="title_activity_eventos">"Events"</string>
+    <string name="title_activity_parceiros">"Partners"</string>
+    <string name="title_activity_doacao">"Donation"</string>
+    <string name="title_activity_sobre">"About"</string>
+
+    <!-- Consulta PET -->
+    <string name="tela_consulta_saudacao">"Wait! We are by downloading our furry"</string>
+    <string name="tela_consulta_saudacao_finished">"Find your new companion!"</string>
+    <string name="tela_consulta_tv_tipo">"Species"</string>
+    <string name="tela_consulta_tv_sexo">"Sex"</string>
+    <string name="tela_consulta_tv_porte">"Size Rating"</string>
+    <string name="tela_consulta_tv_idade">"Age"</string>
+    <string name="tela_consulta_toast_consulta_invalida">"Your query returned no Furry! : - /"</string>
+    <string name="tela_consulta_toast_consulta_inicio">"We did not find any hairy in our Base! : - /"</string>
+
+    <!-- Consulta EVENTOS -->
+    <string name="tela_consulta_saudacao_eventos">"We are by downloading our events"</string>
+    <string name="tela_consulta_saudacao_eventos_finished">"Events calendar"</string>
+    <string name="tela_consulta_eventos_tipo">"Event Filter"</string>
+    <string name="tela_evento_toast_consulta_invalida">"Your query returned no event!"</string>
+    <string name="chVerResumo">"View List"</string>
+
+    <!-- Como Ajudar? -->
+    <string name="tvDepositoTrans">"Deposit or Transfer Bank Account:"</string>
+    <string name="tvContas">"You can collaborate with the Association 101 viralatas by deposit or bank transfer in one of the following accounts:"</string>
+    <string name="tvBancoBrasilTrans">"BRAZIL BANK: Agency 5653-7 / 1248-3 Account"</string>
+    <string name="tvBancoBanrisulTrans">"BANRISUL: 0982 Agency / Account: 06.060510.0-5"</string>
+    <string name="tvBancoCaixaTrans">"CHEST: Agency 3457 / Operation: 022 / Savings Account: 4-8"</string>
+    <string name="tvSistemasOnline">"By PagSeguro"</string>
+    <string name="tvSistemas">"You can hold your contribution by debit, online transfer or credit card of any value."</string>
+    <string name="tvVoluntariado">"VOLUNTEERING"</string>
+    <string name="tvAreasVoluntariado">"The Family 101 viralatas account, currently with more than 350 animals. So it would be virtually impossible to maintain the structure running without many hands to help several paws. Our volunteers can collaborate in several areas:"</string>
+    <string name="tvAreasVoluntariado1">"Sponsorship"</string>
+    <string name="tvAreasVoluntariado2">"Feeding Hairy"</string>
+    <string name="tvAreasVoluntariado3">"Cleaning kennels and catteries"</string>
+    <string name="tvAreasVoluntariado4">"Adoptions"</string>
+    <string name="tvAreasVoluntariado5">"Events"</string>
+    <string name="tvAreasVoluntariado6">"Communications"</string>
+    <string name="tvAreasVoluntariado7">"Commercial"</string>
+    <string name="tvAreasVoluntariado8">"Walk with Animals"</string>
+    <string name="tvAreasVoluntariado9">"Intermediate Care Facility"</string>
+    <string name="tvAreasVoluntariado10">"Maintenance of Infrastructure NGO"</string>
+    <string name="tvAreasVoluntariado11">"Among others"</string>
+    <string name="btnVoluntariadoQueroVoluntariar">"I want to Volunteer!"</string>
+
+    <!-- Doação -->
+    <string name="tvDoacao">Donation of Products and Items</string>
+    <string name="tvDoacaoItens">"If you want to help us through product donations, constantly need: Ration (cats, dogs and puppies), Remedios, Cottingham, clothes Used, Carpets, Newspapers, Building Materials, tiles, fabrics, wood, cement, and all more we can contribute to the care of dogs and cats, as well as maintenance of the infrastructure of the NGO. If you can not take the donation to the NGO, please contact us stating what you want to donate, address and contact telephone number, so that one of our volunteers schedule the withdrawal of the donation in your home."</string>
+    <string name="tvDoacaoSOS">"You can donate food through the SOS DIETS, they deliver the NGO without delivery charge. SOS Rations - (51) 3387-0204 / (51) 3387-4361"</string>
+    <string name="tvDoacaoLugar">"For a number of occasions, you can leave your contribution in one of our collection points."</string>
+    <string name="tvItensBrecho">"Often the 101 viralatas performs thrift stores as a way to raise additional resources, made from any product donated and is in good working conditions for sale."</string>
+    <string name="btnContatoDoacao">"Contact us"</string>
+    <string name="tvDiversas">"You can help the NGO 101 viralatas in several ways:"</string>
+    <string name="tvDoacaoDinheiro">"Cash donations"</string>
+    <string name="tvContasBancarias">"Through Our Bank Account:"</string>
+    <string name="tvBancoBrasil">"Banco Do Brazil: Agency 5653-7 / 1248-3 Account "</string>
+    <string name="tvBancoBanrisul">"Banrisul: 0982 Agency / Account: 06.060510.0-5 "</string>
+    <string name="tvDepositoCaixa">"Deposit in Box: 3457 Agency / Operation: 022 / Savings Account: Transfer 4-8 P / Case: 3457 Agency / Operation: 022 / Savings Account: 48"</string>
+    <string name="tvDepositoCaixaCNPJ">"CNPJ: 11.307.796/0001-46"</string>
+    <string name="tvLar">"Making Temporary Home"</string>
+    <string name="tvCuidandoCao">"Taking care of a dog in the postoperative period, we are responsible for food, medicines and any expense that the furry need. To make temporary home, please contact us."</string>
+    <string name="tvDivulgaRede">"Touting In Social Networks"</string>
+    <string name="tvCurtindoFanPage">"Enjoying and inviting your friends to tan our page and also sharing our posts and our peludinhos that are up for adoption."</string>
+    <string name="tvQueroDoar">"I want to donate!"</string>
+
+    <!-- Contato -->
+    <string name="title_activity_contato">"Contact"</string>
+    <string name="tvFaleConosco">"Contact Us "</string>
+    <string name="tvHorario">"Opening hours"</string>
+    <string name="tvHoras">"Our office hours are Monday to Saturday from 9h to 18h. E-mails and Facebook messages after 18h can be answered only in the next day's service."</string>
+    <string name="etNomeContato">"Name"</string>
+    <string name="etEmailContato">"E-mail"</string>
+    <string name="etTelefoneContato">"Phone"</string>
+    <string name="etMensagemContato">"Message"</string>
+    <string name="btnEnviarContato">"Send"</string>
+    <string name="Assunto">"Subject:"</string>
+
+    <!-- Spinner Contato -->
+    <string-array name="spAssuntoContato">
+        <item>"Adoption"</item>
+        <item>"Visit Scheduling"</item>
+        <item>"Donations collection"</item>
+        <item>"Monthly donation"</item>
+        <item>"Product ordering"</item>
+        <item>"Godparents"</item>
+        <item>"Sponsor Site, or Facebook App"</item>
+        <item>"Flea Products"</item>
+        <item>"Voluntary"</item>
+        <item>"Temporary home"</item>
+        <item>"Another topic"</item>
+        <item>"Select"</item>
+    </string-array>
+
+    <string name="tvVolutariadoInteresse">"If you are interested in working voluntarily in any of our need for jobs or have another way to help ONG, contact us! We will have a lot of gratitude to have you on our team in love with the little friends to 4 feet. And every volunteer sign an Instrument of Adhesion to Volunteering, through which both the ONG and the volunteer have signed responsibilities, rights and duties of this relationship."</string>
+
+    <!-- Sobre -->
+    <string name="so_nomeapp">App Abrigo CoraCão</string>
+    <string name="so_versao">Version 1.0</string>
+    <string name="so_desenvolvedor">Top Developer\nCluster - Thiago Cury</string>
+    <string name="so_desenvolvedor_auxiliar">Partners Developers</string>
+    <string name="so_data">Year 2017</string>
+    <string name="so_site">Site: www.thiagocury.eti.br</string>
+    <string name="so_contato">Contact: contato@thiagocury.eti.br</string>
+
+    <string name="tvDesenvolvedoresParceiros">Partners developers</string>
+    <string name="tvParceiro1">Alice Longhi</string>
+    <string name="tvParceiro2">Diego Xavier</string>
+    <string name="tvParceiro3">Lucas Cruz Wottrich</string>
+    <string name="tvParceiro4">Marcelo Vieira Esser</string>
+    <string name="tvParceiro5">Mauricio Ray</string>
+    <string name="tvParceiro6"></string>
+
+    <!-- História -->
+    <string name="titulo_historia_o_que">"What makes the 101 viralatas Association?"</string>
+    <string name="texto_historia_o_que">"Located in Viamão, in the RS, the 101 viralatas is an ONG that houses and cares for over 350 animals that were victims of neglect in the metropolitan area of ​​Porto Alegre. Caring for them is not easy, so we rely on the help of donations, thrift stores and sales of institutional products. Every day we strive to ensure enough food for everybody, but our main goal is to find a home for each of peludinhos we care."</string>
+    <string name="titulo_historia">"How everything started?"</string>
+    <string name="texto_historia">"Our founder, Aline Orestes, from an early age had a love of animals. With
+ only 10 years and with all that love could conquer his parents for the 
+cause, and so were taking home all helpless peludinhos they encountered 
+along the way. Soon the house was full and she was realizing his dream: to save lives of abandonment and suffering!
+In 2003 the unexpected happened, the company went bankrupt family, and at 
+that time already took care of about 50 dogs a handful of cats and one 
+horse. In desperation, they sold everything they had and were left with only the site, which is now the headquarters of the NGO. The situation was so difficult that came to miss the food of the animals for 2 days.
+\nThere with debts in the agricultural way was out for help, the sites, chats and all appeared on the internet, begging for food donation. When they received the first aid (R $ 30.00 Angelica anja) had not even how to pick, but managed to borrow a bike and went with all hope of the world. Since that day never stopped publicize the project.
+\nNessa search for help, Aline met the Rejane and Daniel protectors, project Two Hands Four Paws. The site became a ticket home for the animals collected by them in exchange for a monthly fee. It was a help of utmost importance.
+\nIn 2004, a report in Zero Time was published - Patrola Notebook, and from there the project gained a great extent, becoming known as 101 viralatas. From this, many aid started coming, food donations, medicines, money for kennels construction, paid more travel and thus the 101 viralatas began to structure better.
+After much dedication, in November 2009, the NGO was finally made official with CNPJ registration.
+\nFor continue this beautiful work, we always need help, donations, volunteer work, outreach, partnerships with companies. Only then, we will be able to save even more lives legs, find good homes for them and rescue those still suffering roam the streets.
+        \nThank your attention and look forward to your contact!
+        \nFamíly 101 viralatas"</string>
+
+    <!-- Parceiros -->
+    <string name="parceiros">"Our partners"</string>
+
+    <!-- Doação Mensal -->
+    <string name="title_activity_ajuda_mensal">"Monthly donation"</string>
+    <string name="tvTituloMensal">"Become a Monthly Donor!"</string>
+    <string name="tvTextoMensal">"Debited donation credit card every month automatically. Now you can make your donation without worrying about remembering every month! By purchasing one of the monthly donation plans, you collaborate every month with the chosen quota, whose amount will be charged to your credit card automatically for 12 months."</string>
+    <string name="tvTituloMensal2">"Choose your monthly quota:"</string>
+    <string name="tvDoar5">"Click here to donate R$ 5.00 (PagSeguro) for 12 months."</string>
+    <string name="tvDoar10">"Click here to donate R$ 10.00 (PagSeguro) for 12 months."</string>
+    <string name="tvDoar25">"Click here to donate R$ 25.00 (PagSeguro) for 12 months."</string>
+    <string name="tvDoar30">"Click here to donate R$ 30.00 (PagSeguro) for 12 months."</string>
+    <string name="tvDoar50">"Click here to donate R$ 50.00 (PagSeguro) for 12 months."</string>
+    <string name="tvDoar75">"Click here to donate R$ 75.00 (PagSeguro) for 12 months."</string>
+
+    <!-- Detalhe pet botao -->
+    <string name="btnAdote">"I want to adopt!"</string>
+    <string name="btnDetalhePetApadrinhePeludo">"Sponsor this furry!"</string>
+
+    <!-- Loja Virtual -->
+    <string name="title_activity_loja_virtual">"Our products"</string>
+    <string name="tvLojaVirtual">"Meet our products"</string>
+    <string name="tvLojaBotao">"Click here to buy!"</string>
+
+    <!-- Tela Apadrinhe um Peludo -->
+    <string name="title_activity_tela_apadrinhe_um_peludo">"Sponsorship"</string>
+    <string name="tvApadrinhePeludoTitulo">"Sponsor one Hairy!"</string>
+    <string name="tvApadrinhePeludoTexto">"Ensure monthly ration that hairy that is so special to you but unfortunately you do not have to adopt ... Be sponsor of one of the furry of 101 viralatas Association! Contributing monthly with an affordable rate, hairy chosen by you will have guaranteed food for the whole month! Make a difference and sponsor them a furry! Like the idea and want to patronize? Contact us we spend more information."</string>
+    <string name="btnApadrinhePeludo">"Contact us"</string>
+    <string name="btnApadrinhePeludoPeludos">"Find a furry godson"</string>
+
+    <!-- XML linha_pet -->
+    <string name="btnApadrinharLinhaPet">"Patronize!"</string>
+
+    <!-- XML Content DetalheEvento -->
+    <string name="btnDetalheEventoParticipe">"Click here to join this event!"</string>
+    <string name="title_activity_detalhe_evento">"Info. on the Event"</string>
+    <string name="tvAte">"To "</string>
+
+    <!-- Evento Contato -->
+    <string name="classe_evento_escolhido">"Event chosen to volunteer"</string>
+    <string name="classe_evento_titulo">"Job Title"</string>
+    <string name="classe_evento_descricao">"Description"</string>
+    <string name="classe_evento_data">"Date"</string>
+    <string name="classe_evento_local">"Area"</string>
+
+    <!-- Redes Sociais -->
+    <string name="title_activity_tela_nosso_facebook">"Social Network"</string>
+    <string name="redeSocial">"Social Network"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">"Hello blank fragment"</string>
+
+</resources>

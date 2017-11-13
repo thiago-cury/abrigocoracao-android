@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey300"
+    tools:context="thiagocury.eti.br.centoeumviralatas.FragContato">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/linear_marg"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:layout_margin="@dimen/marg_campo"
+                    android:ems="10"
+                    android:background="@drawable/borda_caixa"
+                    android:id="@+id/etNomeContato"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="@string/etNomeContato" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/borda_caixa"
+                    android:layout_margin="@dimen/marg_campo"
+                    android:ems="10"
+                    android:id="@+id/etEmailContato"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="@string/etEmailContato" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:layout_margin="@dimen/marg_campo"
+                    android:background="@drawable/borda_caixa"
+                    android:ems="10"
+                    android:id="@+id/etTelefoneContato"
+                    android:hint="@string/etTelefoneContato" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Assunto"
+                    android:layout_marginLeft="@dimen/marg_campo"
+                    android:textSize="@dimen/texto_dois"
+                    android:textColor="@color/black"/>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borda_caixa"
+                    android:layout_marginBottom="@dimen/marg_campo"
+                    android:layout_marginLeft="@dimen/marg_campo"
+                    android:layout_marginRight="@dimen/marg_campo"
+                    android:entries="@array/spAssuntoContato"
+                    android:id="@+id/spAssuntoContato"
+                    android:spinnerMode="dialog" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borda_caixa"
+                    android:layout_margin="@dimen/marg_campo"
+                    android:id="@+id/etMensagemContato"
+                    android:hint="@string/etMensagemContato" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/marg_campo"
+                    android:background="@drawable/borda_botao"
+                    android:textColor="@color/white"
+                    android:text="@string/btnEnviarContato"
+                    android:id="@+id/btnEnviarContato" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

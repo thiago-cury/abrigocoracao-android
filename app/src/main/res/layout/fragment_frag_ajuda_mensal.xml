@@ -1,0 +1,137 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey300"
+    tools:context="thiagocury.eti.br.centoeumviralatas.FragAjudaMensal">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/linear_marg"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/tvTituloMensal"
+                android:background="@drawable/borda_botao"
+                android:id="@+id/tvTituloMensal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/marg_texto_top"
+                android:background="@drawable/borda_caixa">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/tvTextoMensal"
+                    android:id="@+id/tvTextoMensal"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/tvTituloMensal2"
+                android:id="@+id/tvTituloMensal2"
+                android:textAlignment="center"
+                android:background="@drawable/borda_botao"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/marg_lin_top"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/marg_lin_top"
+                android:paddingRight="@dimen/marg_lin_top"
+                android:layout_marginTop="@dimen/marg_texto_top">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tvDoar5"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:id="@+id/btnDoar5"
+                    android:background="@drawable/borda_botao"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tvDoar10"
+                    android:textAlignment="center"
+                    android:layout_marginTop="@dimen/marg_texto_top"
+                    android:textColor="@color/white"
+                    android:id="@+id/btnDoar10"
+                    android:background="@drawable/borda_botao"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tvDoar25"
+                    android:textAlignment="center"
+                    android:layout_marginTop="@dimen/marg_texto_top"
+                    android:textColor="@color/white"
+                    android:id="@+id/btnDoar25"
+                    android:background="@drawable/borda_botao"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tvDoar30"
+                    android:textAlignment="center"
+                    android:layout_marginTop="@dimen/marg_texto_top"
+                    android:textColor="@color/white"
+                    android:id="@+id/btnDoar30"
+                    android:background="@drawable/borda_botao"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tvDoar50"
+                    android:textAlignment="center"
+                    android:layout_marginTop="@dimen/marg_texto_top"
+                    android:textColor="@color/white"
+                    android:id="@+id/btnDoar50"
+                    android:background="@drawable/borda_botao"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tvDoar75"
+                    android:textAlignment="center"
+                    android:layout_marginTop="@dimen/marg_texto_top"
+                    android:textColor="@color/white"
+                    android:id="@+id/btnDoar75"
+                    android:background="@drawable/borda_botao"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

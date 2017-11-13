@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1020924437106",
+    "firebase_url": "https://abrigocoracao-65a00.firebaseio.com",
+    "project_id": "abrigocoracao-65a00",
+    "storage_bucket": "abrigocoracao-65a00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020924437106:android:6bab967f862fb4d3",
+        "android_client_info": {
+          "package_name": "thiagocury.eti.br.abrigocoracao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020924437106-dmfolungd50j0rae9gp6e5clfrpmiae5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-xGGhAeaJBj5-bES_Cov2FqZcMAxs5mU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

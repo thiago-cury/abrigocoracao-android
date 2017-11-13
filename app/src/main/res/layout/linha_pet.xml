@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="@dimen/alt_parceiro"
+        android:layout_height="@dimen/alt_parceiro"
+        android:id="@+id/ivFoto"
+        android:layout_marginTop="@dimen/marg_campo"
+        android:layout_marginBottom="@dimen/marg_campo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/ic_logotipo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:layout_marginLeft="@dimen/marg_campo"
+        android:layout_marginTop="@dimen/marg_campo"
+        android:textSize="@dimen/texto_um"
+        android:id="@+id/tvNome"
+        android:layout_toRightOf="@+id/ivFoto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Idade"
+        android:layout_marginLeft="@dimen/marg_idade"
+        android:id="@+id/tvIdade"
+        android:layout_toRightOf="@+id/tvSexo"
+        android:layout_below="@+id/tvNome" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sexo"
+        android:layout_marginLeft="@dimen/marg_campo"
+        android:id="@+id/tvSexo"
+        android:layout_below="@+id/tvNome"
+        android:layout_toEndOf="@+id/ivFoto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Porte"
+        android:layout_marginLeft="@dimen/marg_campo"
+        android:id="@+id/tvPorte"
+        android:layout_below="@+id/tvSexo"
+        android:layout_toEndOf="@+id/ivFoto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperamento"
+        android:layout_marginLeft="@dimen/marg_campo"
+        android:id="@+id/tvTemperamento"
+        android:layout_below="@+id/tvPorte"
+        android:layout_toEndOf="@+id/ivFoto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Padrinho"
+        android:layout_marginLeft="@dimen/marg_campo"
+        android:id="@+id/tvPadrinho"
+        android:layout_below="@+id/tvTemperamento"
+        android:layout_toEndOf="@+id/ivFoto"
+        android:visibility="invisible"/>
+</RelativeLayout>

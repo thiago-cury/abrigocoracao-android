@@ -1,0 +1,240 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey300"
+    tools:context="thiagocury.eti.br.abrigocoracao.FragDoacao">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/linear_marg">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/Doacao"
+                android:background="@drawable/borda_caixa">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tvDoacao"
+                    android:id="@+id/tvDoacao"
+                    android:textAlignment="center"
+                    android:paddingTop="@dimen/padding_ajudar"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:paddingBottom="@dimen/padding_ajudar"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvDoacaoItens"
+                    android:layout_marginTop="@dimen/marg_texto_top"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/texto_um"
+                    android:id="@+id/tvDoacaoItens" />
+
+                <!-- <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/tvDoacaoSOS"
+                     android:layout_marginTop="@dimen/marg_texto_top"
+                     android:textAlignment="center"
+                     android:textSize="@dimen/texto_um"
+                     android:id="@+id/tvDoacaoSOS" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:text="@string/tvItensBrecho"
+                     android:layout_marginTop="@dimen/marg_texto_top"
+                     android:textAlignment="center"
+                     android:textSize="@dimen/texto_um"
+                     android:id="@+id/tvIntensBrecho" />-->
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/moip_marg_larg"
+                    android:layout_marginRight="@dimen/moip_marg_larg"
+                    android:layout_marginTop="@dimen/marg_campo"
+                    android:layout_marginBottom="@dimen/marg_campo"
+                    android:textColor="@color/white"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/btnDoacaoProdutos"
+                    android:background="@drawable/borda_botao"
+                    android:text="@string/btnContatoDoacao" />
+
+            </LinearLayout>
+
+           <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/marg_lin_top"
+                android:id="@+id/AjudaDinheiro"
+                android:background="@drawable/borda_caixa">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tvDoacaoDinheiro"
+                    android:id="@+id/tvDoacaoDinheiro"
+                    android:textAlignment="center"
+                    android:paddingTop="@dimen/padding_ajudar"
+                    android:layout_gravity="center"
+                    android:paddingBottom="@dimen/padding_ajudar"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvContasBancarias"
+                    android:layout_marginTop="@dimen/marg_texto_top"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/texto_um"
+                    android:id="@+id/tvContasBancarias" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvBancoBrasil"
+                    android:layout_marginTop="@dimen/marg_texto_top"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/texto_um"
+                    android:id="@+id/tvBancoBrasil" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvBancoBanrisul"
+                    android:layout_marginTop="@dimen/marg_texto_top"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/texto_um"
+                    android:id="@+id/tvBancoBanrisul" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvDepositoCaixa"
+                    android:layout_marginTop="@dimen/marg_texto_top"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/texto_um"
+                    android:id="@+id/tvDepositoCaixa" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvDepositoCaixaCNPJ"
+                    android:layout_marginTop="@dimen/marg_texto_top"
+                    android:textSize="@dimen/texto_destaque"
+                    android:textAlignment="center"
+                    android:id="@+id/tvDepositoCaixaCNPJ" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/linear_marg"
+                android:background="@drawable/borda_caixa">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tvSistemasOnline"
+                    android:id="@+id/Sistemas"
+                    android:textAlignment="center"
+                    android:padding="@dimen/padding_ajudar"
+                    android:layout_gravity="center"
+                    android:paddingBottom="@dimen/padding_ajudar"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvSistemas"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/texto_um"
+                    android:id="@+id/tvSistemas" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnPagSeguro"
+                    android:text="@string/tvQueroDoar"
+                    android:layout_marginTop="@dimen/pag_marg_top"
+                    android:layout_marginLeft="@dimen/moip_marg_larg"
+                    android:layout_marginRight="@dimen/moip_marg_larg"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:background="@drawable/borda_botao"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/marg_lin_top"
+                android:id="@+id/LarTemporario"
+                android:background="@drawable/borda_caixa">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tvLar"
+                    android:id="@+id/tvLar"
+                    android:textAlignment="center"
+                    android:paddingTop="@dimen/padding_ajudar"
+                    android:layout_gravity="center"
+                    android:paddingBottom="@dimen/padding_ajudar"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvCuidandoCao"
+                    android:layout_marginTop="@dimen/marg_texto_top"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/texto_um"
+                    android:id="@+id/tvCuidandoCao" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/moip_marg_larg"
+                    android:layout_marginRight="@dimen/moip_marg_larg"
+                    android:layout_marginTop="@dimen/moip_marg_top"
+                    android:id="@+id/btnLarCao"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:background="@drawable/borda_botao"
+                    android:text="@string/btnContatoDoacao" />
+
+            </LinearLayout> -->
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

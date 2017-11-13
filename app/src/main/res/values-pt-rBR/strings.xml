@@ -1,0 +1,352 @@
+<resources>
+    <string name="app_name">CoraCão</string>
+    <string name="action_settings">"Settings"</string>
+
+    <!-- Propaganda -->
+    <string name="banner_ad_unit_id_inicial">"ca-app-pub-2051234629138297/2172471167"</string>
+
+    <!-- Tela de Abertura -->
+    <string name="tela_principal_saudacao">"Olá! Seja Bem Vindo ao App da ONG Abrigo Coracão."</string>
+    <string name="Texto_inicial">"Aqui você pode conhecer nossos peludinhos que aguardam uma família, com possibilidade de filtrar a busca conforme as características desejadas. "</string>
+    <string name="texto_inicial_dois">"Você também pode saber mais sobre a ONG: como ajudar, conhecer nossos produtos, parceiros, próximos eventos e entrar em contato com a gente."</string>
+    <string name="clicar">"Clique no menu para navegar."</string>
+    <string name="btnTelaAbertura">"Peludinhos para Adoção!"</string>
+
+    <!-- Erros no geral-->
+    <string name="erro_conexao">"Algum problema ocorreu em sua conexão!"</string>
+    <string name="erro_sem_eventos_inicio">"Não encontramos nenhum evento no momento! :-/"</string>
+    <string name="erro_sem_eventos">"Sua consulta não retornou nenhum evento! :-/"</string>
+    <string name="wifi_ligado">"WIFI Ligado!"</string>
+    <string name="alert_wifi_titulo">"Aviso!"</string>
+    <string name="alert_wifi_mensagem">"Você não está conectado! Algumas funcionalidades deixarão de funcionar!"</string>
+    <string name="alert_wifi_botao_ok">"Desejo Ligar Agora!"</string>
+
+    <!-- tela detalhePet -->
+    <string name="tela_detalhe_pet_nome">"Nome"</string>
+    <string name="tela_detalhe_pet_idade">"Idade"</string>
+    <string name="tela_detalhe_pet_sexo">"Sexo"</string>
+    <string name="tela_detalhe_pet_porte">"Porte"</string>
+    <string name="tela_detalhe_pet_temperamento">"Temperamento"</string>
+    <string name="tela_detalhe_pet_historia">"História"</string>
+
+    <!-- Classe EventoAdapter -->
+    <string name="classe_evento_adapter_titulo">"Título"</string>
+    <string name="classe_evento_adapter_descricao">"Descrição"</string>
+    <string name="classe_evento_adapter_data_evento">"Data Evento"</string>
+    <string name="classe_evento_adapter_hora_inicio">"Hora Início"</string>
+    <string name="classe_evento_adapter_hora_termino">"Hora Término"</string>
+    <string name="classe_evento_adapter_tipo_evento">"Tipo Evento"</string>
+
+    <!-- Classe PetAdapter -->
+    <string name="classe_pet_adapter_porte">"Porte"</string>
+    <string name="classe_pet_adapter_ano">"Ano(s)"</string>
+    <string name="classe_pet_adapter_ano_nasc">"Ano Nasc."</string>
+    <string name="classe_pet_adapter_nome">"Nome"</string>
+    <string name="classe_pet_adapter_dados_pet_escolhido">"Dados do peludo escolhido"</string>
+    <string name="classe_pet_adapter_temperamento">"Temperamento"</string>
+    <string name="classe_pet_adapter_padrinho">"Peludo aguardando padrinho"</string>
+
+    <!-- Menu -->
+    <string name="menu_tela_principal">"Tela Inicial"</string>
+    <string name="menu_eventos">"Eventos"</string>
+    <string name="menu_cadastro_pets">"Cadastro"</string>
+    <string name="menu_consulta_pets">"Nossos Peludos"</string>
+    <string name="menu_lojavirtual">"Nossos Produtos"</string> <!-- Nossos Produtos -->
+    <string name="menu_entrada">"Entrada"</string>
+    <string name="menu_saida">"Saída"</string>
+    <string name="menu_como_ajudar">"Seja um Voluntário"</string> <!-- Como Ajudar? -->
+    <string name="menu_doacao">"Faça Uma Doação"</string>
+    <string name="menu_docao_mensal">"Doação Mensal"</string>
+    <string name="menu_apadrinhe_um_peludo">"Apadrinhe um Peludo"</string>
+    <string name="menu_historia">"História da ONG"</string>
+    <string name="menu_parceiros">"Parceiros"</string>
+    <string name="menu_contato">"Contato"</string>
+    <string name="menu_sobre">"Sobre"</string>
+    <string name="menu_sair">"Sair"</string>
+    <string name="title_activity_cadastro_animal">"CadastroAnimal"</string>
+
+    <!-- Cadastro Animal -->
+    <string name="cadastro_animal_codigo">"Código"</string>
+    <string name="cadastro_animal_nome">"Nome"</string>
+    <string name="cadastro_animal_idade">"Idade"</string>
+    <string name="cadastro_animal_sexo">"Sexo"</string>
+    <string name="cadastro_animal_tipo">"Tipo"</string>
+    <string name="cadastro_animal_temperamento">"Temperamento"</string>
+    <string name="cadastro_animal_porte">"Porte"</string>
+    <string name="cadastro_animal_status">"Status"</string>
+    <string name="cadastro_animal_cadastrar">"Cadastrar"</string>
+    <string name="cadastro_animal_buscar">"Buscar Imagem"</string>
+    <string name="cadastro_animal_tirar">"Tirar Foto"</string>
+
+    <!-- Array Tipo ConsultaEvento -->
+    <string-array name="arrayTipoConsultaEvento">
+        <item>"Todos"</item>
+        <item>"Mutirão"</item>
+        <item>"Brechó"</item>
+        <item>"Banho/Tosa"</item>
+        <item>"Ação entre amigos/sorteio"</item>
+        <item>"Feira de Adoção"</item>
+        <item>"Chá Beneficente"</item>
+        <item>"Voluntários Carinhosos"</item>
+        <item>"Amornique"</item>
+        <item>"Banho"</item>
+        <item>"Lida"</item>
+        <item>"Confraternização"</item>
+        <item>"Serenata Iluminada"</item>
+        <item>"Outros"</item>
+    </string-array>
+
+    <!-- Array Tipo ConsultaPet -->
+    <string-array name="arrayTipoConsultaPet">
+        <item>"Todos"</item>
+        <item>"Canino"</item>
+        <item>"Felino"</item>
+    </string-array>
+
+    <!-- Array Porte ConsultaPet -->
+    <string-array name="arrayPorteConsultaPet">
+        <item>"Todos"</item>
+        <item>"P"</item>
+        <item>"P/M"</item>
+        <item>"M"</item>
+        <item>"M/G"</item>
+        <item>"G"</item>
+    </string-array>
+
+    <!-- Array Filhote/Adulto ConsultaPet -->
+    <string-array name="arrayIdadeConsultaPet">
+        <item>"Todos"</item>
+        <item>"Filhote"</item>
+        <item>"Adulto"</item>
+        <item>"Idoso"</item>
+    </string-array>
+
+    <!-- Array Sexo ConsultaPet -->
+    <string-array name="arraySexoConsultaPet">
+        <item>"Todos"</item>
+        <item>"Macho"</item>
+        <item>"Fêmea"</item>
+    </string-array>
+
+    <!-- Array Espécie -->
+    <string-array name="arrayTipo">
+        <item>"Canino"</item>
+        <item>"Felino"</item>
+    </string-array>
+
+    <!-- Array Sexo-->
+    <string-array name="arraySexo">
+        <item>"Masculino"</item>
+        <item>"Feminino"</item>
+    </string-array>
+
+    <!-- Array Status -->
+    <string-array name="arrayStatus">
+        <item>"Na ONG"</item>
+        <item>"Adotado"</item>
+        <item>"Em Lar Temporário"</item>
+    </string-array>
+
+    <!-- Array Porte -->
+    <string-array name="arrayPorte">
+        <item>"P"</item>
+        <item>"P/M"</item>
+        <item>"M"</item>
+        <item>"M/G"</item>
+        <item>"G"</item>
+    </string-array>
+
+    <!-- Array Castrado -->
+    <string-array name="arrayCastrado">
+        <item>"Sim"</item>
+        <item>"Não"</item>
+    </string-array>
+
+    <!-- Array Temperamento -->
+    <string-array name="arrayTemperamento">
+        <item>"Tranquilo no geral"</item>
+        <item>"Dócil com pessoas"</item>
+        <item>"Dócil com animais"</item>
+    </string-array>
+
+    <!-- Titulos Tela -->
+    <string name="title_activity_cadastro_pet">"Cadastro de Peludos"</string>
+    <string name="title_activity_consulta_pet">"Nossos Peludos"</string>
+    <string name="title_activity_pet_detalhe">"Informações do Peludo"</string>
+    <string name="title_activity_detalhe_pet">"Informações do Peludo"</string>
+    <string name="title_activity_como_ajudar">"Seja um Voluntário"</string>
+    <string name="title_activity_historia">"História"</string>
+    <string name="title_activity_eventos">"Eventos"</string>
+    <string name="title_activity_parceiros">"Parceiros"</string>
+    <string name="title_activity_doacao">"Doação"</string>
+    <string name="title_activity_sobre">"Sobre"</string>
+
+    <!-- Consulta PET -->
+    <string name="tela_consulta_saudacao">"Aguarde! Estamos efetuando download de nossos peludos"</string>
+    <string name="tela_consulta_saudacao_finished">"Encontre seu novo companheiro!"</string>
+    <string name="tela_consulta_tv_tipo">"Espécie"</string>
+    <string name="tela_consulta_tv_sexo">"Sexo"</string>
+    <string name="tela_consulta_tv_porte">"Porte"</string>
+    <string name="tela_consulta_tv_idade">"Idade"</string>
+    <string name="tela_consulta_toast_consulta_invalida">"Sua consulta não retornou nenhum Peludo! :-/"</string>
+    <string name="tela_consulta_toast_consulta_inicio">"Não encontramos nenhum Peludo na nossa Base! :-/"</string>
+
+    <!-- Consulta EVENTOS -->
+    <string name="tela_consulta_saudacao_eventos">"Estamos efetuando download de nossos eventos"</string>
+    <string name="tela_consulta_saudacao_eventos_finished">"Calendário de Eventos"</string>
+    <string name="tela_consulta_eventos_tipo">"Filtro de Eventos"</string>
+    <string name="tela_evento_toast_consulta_invalida">"Sua consulta não retornou nenhum evento!"</string>
+    <string name="chVerResumo">"Ver em lista"</string>
+
+    <!-- Como Ajudar? -->
+    <string name="tvDepositoTrans">"Depósito ou Transferência em Conta Bancária:"</string>
+    <string name="tvContas">"Você pode colaborar com a Associação 101 Viralatas através de depósito ou transferência bancária em uma das contas a seguir:"</string>
+    <string name="tvBancoBrasilTrans">"BANCO DO BRASIL: Agência 5653-7 / Conta 1.248-3"</string>
+    <string name="tvBancoBanrisulTrans">"BANRISUL: Agência 0982 / Conta: 06.060510.0-5"</string>
+    <string name="tvBancoCaixaTrans">"CAIXA: Agência 3457 / Operação: 022 / Conta Poupança: 4-8"</string>
+    <string name="tvSistemasOnline">"Pelo PagSeguro"</string>
+    <string name="tvSistemas">"Você pode realizar a sua contribuição através de débito, transferência online ou cartão de crédito, de qualquer valor."</string>
+    <string name="tvVoluntariado">"Voluntariado"</string>
+
+    <string name="tvAreasVoluntariado">Um Abrigo só se mantém com muito trabalho... limpeza de ~50 canis, banho e tosa... além de manutenções necessárias no abrigo! Vamos lá, pois nessa luta precisamos "arregaçar as mangas" e realizar! Entre em contato conosco.</string>
+
+    <string name="tvAreasVoluntariado1">"Apadrinhamento"</string>
+    <string name="tvAreasVoluntariado2">"Alimentação dos Peludos"</string>
+    <string name="tvAreasVoluntariado3">"Limpeza de Canis e Gatis"</string>
+    <string name="tvAreasVoluntariado4">"Adoções"</string>
+    <string name="tvAreasVoluntariado5">"Eventos"</string>
+    <string name="tvAreasVoluntariado6">"Comunicação"</string>
+    <string name="tvAreasVoluntariado7">"Comercial"</string>
+    <string name="tvAreasVoluntariado8">"Passeio com Animais"</string>
+    <string name="tvAreasVoluntariado9">"Casa de Passagem"</string>
+    <string name="tvAreasVoluntariado10">"Manutenção da Infraestrutura da ONG"</string>
+    <string name="tvAreasVoluntariado11">"Entre outros"</string>
+    <string name="btnVoluntariadoQueroVoluntariar">"Quero Voluntariar!"</string>
+
+    <!-- Doação -->
+    <string name="tvDoacao">Doação de Produtos e Itens</string>
+    <string name="tvDoacaoItens">Cada colaboração é bem-vinda... precisamos de 1,2 ton de ração/mês, além de vacinas, medicamentos frequentes, castrações e tratamentos veterinários. Tudo necessário à saúde dos animais! Conheça esse trabalho real e honesto. Entre em contato para retirarmos ou nos enviar doações.</string>
+    <string name="tvDoacaoSOS">"Você pode doar ração através da SOS RAÇÕES, eles entregam na ONG sem taxa de entrega. SOS Rações - (51) 3387-0204/ (51) 3387-4361"</string>
+    <string name="tvDoacaoLugar">"Para diversas ocasiões, você pode deixar sua contribuição em um de nossos pontos de coleta."</string>
+    <string name="tvItensBrecho">"Frequentemente, a 101 Viralatas realiza brechós como forma de captar recursos adicionais, realizados a partir de todo e qualquer produto doado e que esteja em boas condições de uso para venda."</string>
+    <string name="btnContatoDoacao">"Entre em Contato"</string>
+    <string name="tvDiversas">"Você pode ajudar a ONG 101 Viralatas de diversas formas:"</string>
+    <string name="tvDoacaoDinheiro">"Doações em Dinheiro"</string>
+    <string name="tvContasBancarias">"Através de Nossas Contas Bancárias:"</string>
+    <string name="tvBancoBrasil">"Banco Do Brasil: Agência 5653-7 / Conta 1.248-3 "</string>
+    <string name="tvBancoBanrisul">"Banrisul: Agência 0982 / Conta: 06.060510.0-5 "</string>
+    <string name="tvDepositoCaixa">"Depósito na Caixa: Agência 3457 / Operação: 022 / Conta Poupança: 4-8 Transferência P/ Caixa: Agência 3457 / Operação: 022 / Conta Poupança: 48"</string>
+    <string name="tvDepositoCaixaCNPJ">"CNPJ: 11.307.796/0001-46"</string>
+    <string name="tvLar">"Fazendo Lar Temporário"</string>
+    <string name="tvCuidandoCao">"Cuidando de um cãozinho no pós-operatório, nós somos responsáveis pela ração, medicamentos e qualquer despesa que o peludinho precisar. Para fazer lar temporário, entre em contato."</string>
+    <string name="tvDivulgaRede">"Divulgando Nas Redes Sociais"</string>
+    <string name="tvCurtindoFanPage">"Curtindo e convidando seus amigos a curtirem a nossa página e também compartilhando as nossas postagens e os nossos peludinhos que estão para adoção."</string>
+    <string name="tvQueroDoar">"Quero Doar!"</string>
+
+    <!-- Contato -->
+    <string name="title_activity_contato">"Contato"</string>
+    <string name="tvFaleConosco">"Fale Conosco"</string>
+    <string name="tvHorario">"Horários de atendimento:"</string>
+    <string name="tvHoras">"Nossos horários de atendimento são de segunda a sábado, das 9h às 18h. E-mails e mensagens no Facebook após às 18h poderão ser respondidos somente no próximo dia de atendimento."</string>
+    <string name="etNomeContato">"Nome"</string>
+    <string name="etEmailContato">"Email"</string>
+    <string name="etTelefoneContato">"Telefone"</string>
+    <string name="etMensagemContato">"Mensagem"</string>
+    <string name="btnEnviarContato">"Enviar"</string>
+    <string name="Assunto">"Assunto:"</string>
+
+    <!-- Spinner Contato -->
+    <string-array name="spAssuntoContato">
+        <item>"Adoção"</item>
+        <item>"Agendamento de Visita"</item>
+        <item>"Coleta de Doações"</item>
+        <item>"Doação Mensal"</item>
+        <item>"Encomenda de Produto"</item>
+        <item>"Padrinhos"</item>
+        <item>"Patrocínio no Site, App ou Facebook"</item>
+        <item>"Produtos para Brechó"</item>
+        <item>"Voluntário"</item>
+        <item>"Lar Temporário"</item>
+        <item>"Outro Assunto"</item>
+        <item>"Selecione"</item>
+    </string-array>
+
+    <string name="tvVolutariadoInteresse">"Caso você tenha interesse em trabalhar voluntariamente em alguma de nossas tarefas de necessidade ou ainda possui outra forma de ajudar a ONG, entre em contato conosco! Teremos muita gratidão em ter você em nossa equipe apaixonada pelos amiguinhos de 4 patas. E todo voluntário assinará um Termo de Adesão ao Voluntariado, através do qual tanto a ONG quanto o voluntário firmam responsabilidades, direitos e deveres desta relação."</string>
+
+    <!-- Sobre -->
+    <string name="so_nomeapp">App Abrigo CoraCão</string>
+    <string name="so_versao">Versão 1.0</string>
+    <string name="so_desenvolvedor">Desenvolvedor Principal\nCluster - Thiago Cury</string>
+    <string name="so_desenvolvedor_auxiliar">Desenvolvedores Parceiros"</string>
+    <string name="so_data">Ano 2017</string>
+    <string name="so_site">Site: www.thiagocury.eti.br</string>
+    <string name="so_contato">Contato: contato@thiagocury.eti.br</string>
+
+    <string name="tvDesenvolvedoresParceiros">Desenvolvedores Parceiros</string>
+    <string name="tvParceiro1">Alice Longhi</string>
+    <string name="tvParceiro2">Diego Xavier</string>
+    <string name="tvParceiro3">Lucas Cruz Wottrich</string>
+    <string name="tvParceiro4">Marcelo Vieira Esser</string>
+    <string name="tvParceiro5">Mauricio Ray</string>
+    <string name="tvParceiro6"></string>
+
+    <!-- História -->
+    <string name="titulo_historia_o_que">O que faz a ONG Abrigo CoraCão?</string>
+    <string name="texto_historia_o_que">Há mais de 10 anos, uma família na Zona Sul de SP, mantém o Abrigo CoraCão, um Lar Temporário de Animais Abandonados. Mais de 350 animais amparados e hoje são 140 no abrigo! Gratidão aos amigos e parceiros... Juntos vamos seguir resgatando e cuidando... Até a Adoção!</string>
+    <string name="titulo_historia"></string>
+    <string name="texto_historia"></string>
+
+    <!-- Parceiros -->
+    <string name="parceiros">"Nossos Parceiros"</string>
+
+    <!-- Doação Mensal -->
+    <string name="title_activity_ajuda_mensal">"Doação Mensal"</string>
+    <string name="tvTituloMensal">"Seja um Doador Mensal!"</string>
+    <string name="tvTextoMensal">"Doação debitada do cartão de crédito todo mês, automaticamente. Agora você pode fazer sua doação sem preocupar-se em lembrar todo mês! Ao adquirir um dos planos de doação mensal, você colabora todo mês com a cota escolhida, cujo valor será debitado do seu cartão de crédito automaticamente, durante 12 meses."</string>
+    <string name="tvTituloMensal2">"Escolha sua cota mensal:"</string>
+    <string name="tvDoar5">"Clique aqui para doar R$   5,00 (PagSeguro) durante 12 meses."</string>
+    <string name="tvDoar10">"Clique aqui para doar R$ 10,00 (PagSeguro) durante 12 meses."</string>
+    <string name="tvDoar25">"Clique aqui para doar R$ 25,00 (PagSeguro) durante 12 meses."</string>
+    <string name="tvDoar30">"Clique aqui para doar R$ 30,00 (PagSeguro) durante 12 meses."</string>
+    <string name="tvDoar50">"Clique aqui para doar R$ 50,00 (PagSeguro) durante 12 meses."</string>
+    <string name="tvDoar75">"Clique aqui para doar R$ 75,00 (PagSeguro) durante 12 meses."</string>
+
+    <!-- Detalhe pet botao -->
+    <string name="btnAdote">"Quero Adotar!"</string>
+    <string name="btnDetalhePetApadrinhePeludo">"Apadrinhe esse peludinho!"</string>
+
+    <!-- Loja Virtual -->
+    <string name="title_activity_loja_virtual">"Nossos Produtos"</string>
+    <string name="tvLojaVirtual">"Conheça os nossos produtos"</string>
+    <string name="tvLojaBotao">"Clique aqui para comprar!"</string>
+
+    <!-- Tela Apadrinhe um Peludo -->
+    <string name="title_activity_tela_apadrinhe_um_peludo">"Apadrinhamento"</string>
+    <string name="tvApadrinhePeludoTitulo">"Apadrinhe um Peludo!"</string>
+    <string name="tvApadrinhePeludoTexto">"Garanta a ração mensal daquele peludo que é tão especial para você mas infelizmente você não tem como adotar... Seja padrinho ou madrinha de um dos peludos da Associação 101 Viralatas! Contribuindo mensalmente com uma taxa acessível, o peludo por você escolhido terá ração garantida para o mês inteiro! Faça a diferença e apadrinhe um peludo! Gostou da ideia e quer apadrinhar? Entre em contato conosco que passamos mais informações."</string>
+    <string name="btnApadrinhePeludo">"Entre em Contato"</string>
+    <string name="btnApadrinhePeludoPeludos">"Encontre um afilhado peludo"</string>
+
+    <!-- XML linha_pet -->
+    <string name="btnApadrinharLinhaPet">"Apadrinhar!"</string>
+
+    <!-- XML Content DetalheEvento -->
+    <string name="btnDetalheEventoParticipe">"Clique aqui para participar desse evento!"</string>
+    <string name="title_activity_detalhe_evento">"Info. sobre o Evento"</string>
+    <string name="tvAte">"até "</string>
+
+    <!-- Evento Contato -->
+    <string name="classe_evento_escolhido">"Evento escolhido para voluntariar"</string>
+    <string name="classe_evento_titulo">"Título"</string>
+    <string name="classe_evento_descricao">"Descrição"</string>
+    <string name="classe_evento_data">"Data"</string>
+    <string name="classe_evento_local">"Local"</string>
+
+    <!-- Redes Sociais -->
+    <string name="title_activity_tela_nosso_facebook">"Redes Sociais"</string>
+    <string name="redeSocial">"Redes Sociais"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">"Hello blank fragment"</string>
+
+</resources>

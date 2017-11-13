@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/tvTituloResumo"
+            android:layout_marginLeft="@dimen/padding_sppiner" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/tvLocalResumo"
+            android:layout_marginLeft="@dimen/padding_sppiner" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:layout_marginLeft="@dimen/padding_sppiner"
+            android:layout_marginBottom="@dimen/padding_sppiner"
+            android:id="@+id/tvDataResumo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:layout_marginLeft="@dimen/padding_sppiner"
+                android:layout_marginRight="@dimen/padding_sppiner"
+                android:layout_marginBottom="@dimen/padding_sppiner"
+                android:id="@+id/tvHoraInicioResumo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvAte"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginLeft="@dimen/padding_sppiner"
+                android:layout_marginRight="@dimen/padding_sppiner"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:layout_marginLeft="@dimen/padding_sppiner"
+                android:layout_marginBottom="@dimen/padding_sppiner"
+                android:id="@+id/tvHoraFimResumo" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

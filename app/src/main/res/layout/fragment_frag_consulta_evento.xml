@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey300"
+    tools:context="thiagocury.eti.br.centoeumviralatas.FragConsultaEvento">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/linear_marg">
+
+        <TextView
+            android:text="@string/tela_consulta_saudacao_eventos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="@drawable/borda_botao"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/marg_campo"
+            android:textColor="@color/white"
+            android:id="@+id/tvSaudacaoConsultaEvento" />
+
+        <TextView
+            android:text="@string/tela_consulta_eventos_tipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSaudacaoConsultaEvento"
+            android:layout_alignParentStart="true"
+            android:id="@+id/tvTipoEvento" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spTipoEvento"
+            android:layout_marginBottom="@dimen/marg_campo"
+            android:background="@drawable/borda_caixa"
+            android:entries="@array/arrayTipoConsultaEvento"
+            android:layout_below="@+id/chVerResumo" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lvEventos"
+            android:background="@drawable/borda_caixa"
+            android:layout_below="@+id/spTipoEvento"
+            android:layout_alignParentStart="true"
+            android:choiceMode="singleChoice"
+            android:divider="@color/colorPrimary"
+            android:dividerHeight="4px"
+            android:smoothScrollbar="false" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressEvento"
+            android:layout_centerInParent="true"
+            android:indeterminate="false"
+            style="?android:attr/progressBarStyleLarge" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chVerResumo"
+            android:id="@+id/chVerResumo"
+            android:checked="false"
+            android:layout_below="@+id/tvSaudacaoConsultaEvento"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey300"
+    tools:context="thiagocury.eti.br.abrigocoracao.FragParceiros">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/linear_marg">
+
+            <TextView
+                android:layout_width="@dimen/larg_parceiro"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/parceiros"
+                android:background="@drawable/borda_botao" />
+
+            <ImageView
+                android:layout_width="@dimen/larg_parceiro"
+                android:layout_height="@dimen/alt_parceiro"
+                android:id="@+id/ivPartner1"
+                android:background="@drawable/borda_caixa"
+                android:layout_marginTop="@dimen/marg_campo"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/cluster" />
+
+            <ImageView
+                android:layout_width="@dimen/larg_parceiro"
+                android:layout_height="@dimen/alt_parceiro"
+                android:id="@+id/ivPartner2"
+                android:background="@drawable/borda_caixa"
+                android:layout_marginTop="@dimen/marg_campo"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/fluxus" />
+
+            <ImageView
+                android:layout_width="@dimen/larg_parceiro"
+                android:layout_height="@dimen/alt_parceiro"
+                android:id="@+id/ivPartner3"
+                android:background="@drawable/borda_caixa"
+                android:layout_marginTop="@dimen/marg_campo"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/pindorama" />
+
+            <ImageView
+                android:layout_width="@dimen/larg_parceiro"
+                android:layout_height="@dimen/alt_parceiro"
+                android:id="@+id/ivPartner4"
+                android:background="@drawable/borda_caixa"
+                android:layout_marginTop="@dimen/marg_campo"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/inovacaao" />
+
+            <ImageView
+                android:layout_width="@dimen/larg_parceiro"
+                android:layout_height="@dimen/alt_parceiro"
+                android:id="@+id/ivPartner5"
+                android:background="@drawable/borda_caixa"
+                android:layout_marginTop="@dimen/marg_campo"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/kikante" />
+
+            <ImageView
+                android:layout_width="@dimen/larg_parceiro"
+                android:layout_height="@dimen/alt_parceiro"
+                android:id="@+id/ivPartner6"
+                android:background="@drawable/borda_caixa"
+                android:layout_marginTop="@dimen/marg_campo"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/humanaterra" />
+
+            <ImageView
+                android:layout_width="@dimen/larg_parceiro"
+                android:layout_height="@dimen/alt_parceiro"
+                android:id="@+id/ivPartner7"
+                android:background="@drawable/borda_caixa"
+                android:layout_marginTop="@dimen/marg_campo"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ongcantodaterra" />
+
+            <ImageView
+                android:layout_width="@dimen/larg_parceiro"
+                android:layout_height="@dimen/alt_parceiro"
+                android:id="@+id/ivPartner8"
+                android:background="@drawable/borda_caixa"
+                android:layout_marginTop="@dimen/marg_campo"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/wordpackers" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

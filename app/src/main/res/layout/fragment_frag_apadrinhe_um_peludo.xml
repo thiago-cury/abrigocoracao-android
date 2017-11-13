@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey300"
+    tools:context="thiagocury.eti.br.centoeumviralatas.FragApadrinheUmPeludo">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/linear_marg">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/Doacao"
+                android:background="@drawable/borda_caixa">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tvApadrinhePeludoTitulo"
+                    android:id="@+id/tvApadrinhePeludoTitulo"
+                    android:background="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:paddingTop="@dimen/padding_ajudar"
+                    android:layout_gravity="center"
+                    android:paddingBottom="@dimen/padding_ajudar"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tvApadrinhePeludoTexto"
+                    android:layout_marginTop="@dimen/marg_texto_top"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/texto_um"
+                    android:id="@+id/tvApadrinhePeludoTexto" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/moip_marg_larg"
+                    android:layout_marginRight="@dimen/moip_marg_larg"
+                    android:layout_marginTop="@dimen/marg_campo"
+                    android:layout_marginBottom="@dimen/marg_campo"
+                    android:textColor="@color/white"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/btnApadrinhePeludo"
+                    android:background="@drawable/borda_botao"
+                    android:text="@string/btnApadrinhePeludo" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/moip_marg_larg"
+                    android:layout_marginRight="@dimen/moip_marg_larg"
+                    android:layout_marginTop="@dimen/marg_campo"
+                    android:layout_marginBottom="@dimen/marg_campo"
+                    android:textColor="@color/white"
+                    android:id="@+id/btnApadrinhePeludoPeludos"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:background="@drawable/borda_botao"
+                    android:text="@string/btnApadrinhePeludoPeludos" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

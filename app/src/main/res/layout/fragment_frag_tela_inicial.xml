@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey300"
+    tools:context=".FragTelaInicial"
+    android:id="@+id/frag_tela_inicial_fl">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/linear_marg">
+
+            <ImageView
+                android:layout_width="@dimen/larg_img_pet"
+                android:layout_height="@dimen/altu_img_pet"
+                android:src="@drawable/ic_logotipo"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marg_campo"
+                android:id="@+id/frag_tela_inicial_saudacao_1"
+                android:layout_marginLeft="@dimen/marg_texto_top"
+                android:layout_marginRight="@dimen/marg_texto_top"
+                android:text="@string/tela_principal_saudacao"
+                android:textColor="@color/black"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Texto_inicial"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/marg_texto_top"
+                android:layout_marginLeft="@dimen/marg_texto_top"
+                android:layout_marginRight="@dimen/marg_texto_top"
+                android:textColor="@color/grey800"
+                android:textSize="@dimen/texto"
+                android:id="@+id/frag_tela_inicial_saudacao_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_inicial_dois"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/marg_texto_top"
+                android:layout_marginLeft="@dimen/marg_texto_top"
+                android:layout_marginRight="@dimen/marg_texto_top"
+                android:textColor="@color/grey800"
+                android:textSize="@dimen/texto"
+                android:id="@+id/frag_tela_inicial_saudacao_3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marg_texto_top"
+                android:layout_marginLeft="@dimen/marg_texto_top"
+                android:layout_marginRight="@dimen/marg_texto_top"
+                android:id="@+id/frag_tela_inicial_saudacao_4"
+                android:text="@string/clicar"
+                android:textColor="@color/black"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnTelaAbertura"
+                android:id="@+id/btnAdoteJa"
+                android:layout_marginTop="@dimen/marg_lin_top"
+                android:textColor="@color/white"
+                android:background="@drawable/borda_botao"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
